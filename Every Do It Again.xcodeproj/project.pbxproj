@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D11ADD371F2136A500D97AC5 /* Todo+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E69D761F21128300A23716 /* Todo+CoreDataProperties.m */; };
 		D1CB00931F2039A2000558D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CB00921F2039A2000558D0 /* main.m */; };
 		D1CB00961F2039A2000558D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CB00951F2039A2000558D0 /* AppDelegate.m */; };
 		D1CB00991F2039A2000558D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CB00981F2039A2000558D0 /* ViewController.m */; };
 		D1CB009C1F2039A2000558D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1CB009A1F2039A2000558D0 /* Main.storyboard */; };
-		D1CB009F1F2039A2000558D0 /* Every_Do_It_Again.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1CB009D1F2039A2000558D0 /* Every_Do_It_Again.xcdatamodeld */; };
 		D1CB00A11F2039A2000558D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1CB00A01F2039A2000558D0 /* Assets.xcassets */; };
 		D1CB00A41F2039A2000558D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1CB00A21F2039A2000558D0 /* LaunchScreen.storyboard */; };
+		D1CB00B41F204122000558D0 /* TodoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CB00B31F204122000558D0 /* TodoTableViewCell.m */; };
+		D1CB00B71F204333000558D0 /* AddTodoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CB00B61F204333000558D0 /* AddTodoViewController.m */; };
+		D1E69D3C1F20D58500A23716 /* Every_Do_It_Again.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1CB009D1F2039A2000558D0 /* Every_Do_It_Again.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,14 @@
 		D1CB00A01F2039A2000558D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1CB00A31F2039A2000558D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1CB00A51F2039A2000558D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1CB00B21F204122000558D0 /* TodoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoTableViewCell.h; sourceTree = "<group>"; };
+		D1CB00B31F204122000558D0 /* TodoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoTableViewCell.m; sourceTree = "<group>"; };
+		D1CB00B51F204333000558D0 /* AddTodoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTodoViewController.h; sourceTree = "<group>"; };
+		D1CB00B61F204333000558D0 /* AddTodoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTodoViewController.m; sourceTree = "<group>"; };
+		D1E69D731F21128300A23716 /* Todo+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Todo+CoreDataClass.h"; sourceTree = "<group>"; };
+		D1E69D741F21128300A23716 /* Todo+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Todo+CoreDataClass.m"; sourceTree = "<group>"; };
+		D1E69D751F21128300A23716 /* Todo+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Todo+CoreDataProperties.h"; sourceTree = "<group>"; };
+		D1E69D761F21128300A23716 /* Todo+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Todo+CoreDataProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +55,10 @@
 		D1CB00851F2039A2000558D0 = {
 			isa = PBXGroup;
 			children = (
+				D1E69D731F21128300A23716 /* Todo+CoreDataClass.h */,
+				D1E69D741F21128300A23716 /* Todo+CoreDataClass.m */,
+				D1E69D751F21128300A23716 /* Todo+CoreDataProperties.h */,
+				D1E69D761F21128300A23716 /* Todo+CoreDataProperties.m */,
 				D1CB00901F2039A2000558D0 /* Every Do It Again */,
 				D1CB008F1F2039A2000558D0 /* Products */,
 			);
@@ -64,11 +79,14 @@
 				D1CB00951F2039A2000558D0 /* AppDelegate.m */,
 				D1CB00971F2039A2000558D0 /* ViewController.h */,
 				D1CB00981F2039A2000558D0 /* ViewController.m */,
+				D1CB00B21F204122000558D0 /* TodoTableViewCell.h */,
+				D1CB00B31F204122000558D0 /* TodoTableViewCell.m */,
+				D1CB00B51F204333000558D0 /* AddTodoViewController.h */,
+				D1CB00B61F204333000558D0 /* AddTodoViewController.m */,
 				D1CB009A1F2039A2000558D0 /* Main.storyboard */,
 				D1CB00A01F2039A2000558D0 /* Assets.xcassets */,
-				D1CB00A21F2039A2000558D0 /* LaunchScreen.storyboard */,
-				D1CB00A51F2039A2000558D0 /* Info.plist */,
 				D1CB009D1F2039A2000558D0 /* Every_Do_It_Again.xcdatamodeld */,
+				D1CB00B11F204059000558D0 /* CoreData Entities */,
 				D1CB00911F2039A2000558D0 /* Supporting Files */,
 			);
 			path = "Every Do It Again";
@@ -77,9 +95,19 @@
 		D1CB00911F2039A2000558D0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D1CB00A21F2039A2000558D0 /* LaunchScreen.storyboard */,
+				D1CB00A51F2039A2000558D0 /* Info.plist */,
 				D1CB00921F2039A2000558D0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1CB00B11F204059000558D0 /* CoreData Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CoreData Entities";
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,6 +141,7 @@
 				TargetAttributes = {
 					D1CB008D1F2039A2000558D0 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 62G7WYJ46U;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -153,9 +182,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1E69D3C1F20D58500A23716 /* Every_Do_It_Again.xcdatamodeld in Sources */,
+				D11ADD371F2136A500D97AC5 /* Todo+CoreDataProperties.m in Sources */,
+				D1CB00B71F204333000558D0 /* AddTodoViewController.m in Sources */,
+				D1CB00B41F204122000558D0 /* TodoTableViewCell.m in Sources */,
 				D1CB00991F2039A2000558D0 /* ViewController.m in Sources */,
 				D1CB00961F2039A2000558D0 /* AppDelegate.m in Sources */,
-				D1CB009F1F2039A2000558D0 /* Every_Do_It_Again.xcdatamodeld in Sources */,
 				D1CB00931F2039A2000558D0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,6 +239,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -255,6 +288,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -276,6 +310,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 62G7WYJ46U;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "Every Do It Again/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.errolcheong.Every-Do-It-Again";
@@ -287,6 +323,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 62G7WYJ46U;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "Every Do It Again/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.errolcheong.Every-Do-It-Again";
@@ -313,6 +351,7 @@
 				D1CB00AA1F2039A2000558D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
